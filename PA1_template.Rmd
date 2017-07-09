@@ -2,11 +2,9 @@
 title: "Reproducible research project 1"
 author: "Yue Dai"
 date: "`r Sys.Date()`"
-output:
-  prettydoc::html_pretty:
-    theme: architect
-    highlight: github
+output: md_document
 ---
+
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE,  warning=FALSE, message=FALSE, fig.width=10, fig.height=5)
